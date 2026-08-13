@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="bg-festival-janmashtami" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8F1738"/>
+      <stop offset="55%" stop-color="#B51F4B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D7B56D" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="glow-festival-janmashtami" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#D7B56D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8F1738" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg-festival-janmashtami)"/>
+  <rect width="900" height="700" fill="url(#glow-festival-janmashtami)"/>
+  <ellipse cx="450" cy="294" rx="162" ry="98.00000000000001" fill="#D7B56D" opacity="0.15"/>
+  <ellipse cx="450" cy="266" rx="108" ry="70" fill="#B51F4B" opacity="0.2"/>
+  <path d="M450 385.00000000000006 C315 336 270 244.99999999999997 450 154 C630 244.99999999999997 585 336 450 385.00000000000006Z" fill="#B51F4B" opacity="0.12"/>
+  <circle cx="450" cy="210" r="28" fill="#D7B56D" opacity="0.5"/>
+  <text x="450" y="616" text-anchor="middle" fill="#B51F4B" opacity="0.4" font-family="Georgia, serif" font-size="24.500000000000004">Janmashtami</text>
+  <text x="450" y="651" text-anchor="middle" fill="#D7B56D" opacity="0.35" font-family="Georgia, serif" font-size="15.399999999999999" letter-spacing="3">Replace with photo</text>
+</svg>

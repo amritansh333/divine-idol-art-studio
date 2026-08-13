@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="bg-reveal-laddu-gopal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#64152D"/>
+      <stop offset="55%" stop-color="#B51F4B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#B88932" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="glow-reveal-laddu-gopal" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#B88932" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#64152D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg-reveal-laddu-gopal)"/>
+  <rect width="900" height="1100" fill="url(#glow-reveal-laddu-gopal)"/>
+  <ellipse cx="450" cy="462" rx="162" ry="154.00000000000003" fill="#B88932" opacity="0.15"/>
+  <ellipse cx="450" cy="418" rx="108" ry="110" fill="#B51F4B" opacity="0.2"/>
+  <path d="M450 605 C315 528 270 385 450 242 C630 385 585 528 450 605Z" fill="#B51F4B" opacity="0.12"/>
+  <circle cx="450" cy="330" r="36" fill="#B88932" opacity="0.5"/>
+  <text x="450" y="968" text-anchor="middle" fill="#B51F4B" opacity="0.4" font-family="Georgia, serif" font-size="31.500000000000004">Divine Reveal</text>
+  <text x="450" y="1023" text-anchor="middle" fill="#B88932" opacity="0.35" font-family="Georgia, serif" font-size="19.799999999999997" letter-spacing="3">Replace with photo</text>
+</svg>

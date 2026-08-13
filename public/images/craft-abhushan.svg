@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg-craft-abhushan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF8ED"/>
+      <stop offset="55%" stop-color="#B88932" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#64152D" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="glow-craft-abhushan" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#64152D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FFF8ED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg-craft-abhushan)"/>
+  <rect width="600" height="800" fill="url(#glow-craft-abhushan)"/>
+  <ellipse cx="300" cy="336" rx="108" ry="112.00000000000001" fill="#64152D" opacity="0.15"/>
+  <ellipse cx="300" cy="304" rx="72" ry="80" fill="#B88932" opacity="0.2"/>
+  <path d="M300 440.00000000000006 C210 384 180 280 300 176 C420 280 390 384 300 440.00000000000006Z" fill="#B88932" opacity="0.12"/>
+  <circle cx="300" cy="240" r="24" fill="#64152D" opacity="0.5"/>
+  <text x="300" y="704" text-anchor="middle" fill="#B88932" opacity="0.4" font-family="Georgia, serif" font-size="21.000000000000004">Abhushan</text>
+  <text x="300" y="744" text-anchor="middle" fill="#64152D" opacity="0.35" font-family="Georgia, serif" font-size="13.2" letter-spacing="3">Replace with photo</text>
+</svg>

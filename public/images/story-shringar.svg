@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900">
+  <defs>
+    <linearGradient id="bg-story-shringar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F0E3"/>
+      <stop offset="55%" stop-color="#64152D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D7B56D" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="glow-story-shringar" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#D7B56D" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F8F0E3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="900" fill="url(#bg-story-shringar)"/>
+  <rect width="700" height="900" fill="url(#glow-story-shringar)"/>
+  <ellipse cx="350" cy="378" rx="126" ry="126.00000000000001" fill="#D7B56D" opacity="0.15"/>
+  <ellipse cx="350" cy="342" rx="84" ry="90" fill="#64152D" opacity="0.2"/>
+  <path d="M350 495.00000000000006 C244.99999999999997 432 210 315 350 198 C489.99999999999994 315 455 432 350 495.00000000000006Z" fill="#64152D" opacity="0.12"/>
+  <circle cx="350" cy="270" r="28" fill="#D7B56D" opacity="0.5"/>
+  <text x="350" y="792" text-anchor="middle" fill="#64152D" opacity="0.4" font-family="Georgia, serif" font-size="24.500000000000004">The Art of Seva</text>
+  <text x="350" y="837" text-anchor="middle" fill="#D7B56D" opacity="0.35" font-family="Georgia, serif" font-size="15.399999999999999" letter-spacing="3">Replace with photo</text>
+</svg>
