@@ -17,9 +17,7 @@ export function StorySection() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-12 lg:gap-16">
         <div className="lg:col-span-5 lg:col-start-1">
           <Reveal direction="left">
-            <p className="mb-3 text-xs tracking-[0.3em] text-deep-rani uppercase">
-              Our Philosophy
-            </p>
+            <p className="editorial-eyebrow mb-3">{storyContent.eyebrow}</p>
             <TextReveal
               text={storyContent.heading}
               as="h2"

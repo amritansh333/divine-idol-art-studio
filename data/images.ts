@@ -1,33 +1,40 @@
-/** Centralized image registry — replace paths with real photography */
-export const images = {
-  hero: {
-    src: "/images/hero-laddu-gopal.svg",
-    alt: "Laddu Gopal adorned in beautiful Shringar Seva",
-    width: 800,
-    height: 1000,
-  },
-  story: {
-    src: "/images/story-shringar.svg",
-    alt: "Hands crafting Shringar with devotion",
-    width: 700,
+/** Centralized image registry — Shringar photography */
+export const shringarImages = {
+  flatlay: {
+    src: "/images/shringar/shringar-flatlay.png",
+    alt: "Shringar flat lay — silk, crown, pearls, flowers and peacock feather",
+    width: 1200,
     height: 900,
   },
-  reveal: {
-    src: "/images/reveal-laddu-gopal.svg",
+  peacockJewelry: {
+    src: "/images/shringar/peacock-jewelry.png",
+    alt: "Pearl jewelry and peacock feather close-up",
+    width: 1200,
+    height: 900,
+  },
+  ladduGopalAltar: {
+    src: "/images/shringar/laddu-gopal-altar.png",
+    alt: "Laddu Gopal in sacred altar presentation",
+    width: 900,
+    height: 1100,
+  },
+  ladduGopalShringar: {
+    src: "/images/shringar/laddu-gopal-shringar.png",
     alt: "Fully adorned Laddu Gopal in complete Shringar",
     width: 900,
     height: 1100,
   },
-  deity: {
-    src: "/images/deity-feature.svg",
-    alt: "Laddu Gopal in premium Shringar presentation",
-    width: 800,
-    height: 1000,
-  },
-  festival: {
-    src: "/images/festival-janmashtami.svg",
-    alt: "Janmashtami festive Shringar decoration",
-    width: 900,
-    height: 700,
-  },
+} as const;
+
+export const images = {
+  hero: shringarImages.ladduGopalShringar,
+  story: shringarImages.flatlay,
+  reveal: shringarImages.ladduGopalShringar,
+  deity: shringarImages.ladduGopalAltar,
+  festival: shringarImages.ladduGopalAltar,
+  fabric: shringarImages.flatlay,
+  jewelry: shringarImages.peacockJewelry,
+  crown: shringarImages.flatlay,
+  flowers: shringarImages.flatlay,
+  feather: shringarImages.peacockJewelry,
 } as const;

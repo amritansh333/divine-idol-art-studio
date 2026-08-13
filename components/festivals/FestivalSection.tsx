@@ -32,7 +32,7 @@ export function FestivalSection() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <Reveal>
-          <p className="mb-3 text-xs tracking-[0.3em] text-soft-gold uppercase">
+          <p className="mb-3 editorial-eyebrow text-soft-gold">
             Janmashtami
           </p>
           <TextReveal

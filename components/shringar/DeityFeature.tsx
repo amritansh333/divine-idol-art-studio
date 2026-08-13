@@ -43,14 +43,15 @@ export function DeityFeature() {
 
         <div className="order-2 lg:order-1">
           <Reveal>
-            <p className="mb-3 text-xs tracking-[0.3em] text-deep-rani uppercase">
-              Laddu Gopal
-            </p>
+            <p className="editorial-eyebrow mb-3">{deityContent.eyebrow}</p>
             <TextReveal
               text={deityContent.heading}
               as="h2"
               className="editorial-heading text-charcoal"
             />
+            <p className="mt-6 max-w-md font-serif text-xl italic text-deep-rani md:text-2xl">
+              Chosen with care. Adorned with love.
+            </p>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-charcoal/70">
               {deityContent.supporting}
             </p>
