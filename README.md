@@ -1,6 +1,6 @@
 Shringar by Muskan
 
-A premium, cinematic devotional website for Shringar by Muskan — a Shringar Seva service dedicated to beautifully adorning Hindu deity idols, especially Laddu Gopal, with clothing, jewelry, flowers, mukut, peacock feathers and handcrafted devotional details.
+A premium, cinematic devotional website for Shringar by Muskan — a Shringar Seva service dedicated to beautifully adorning Hindu deity idols, especially Laddu Gopal, with clothing, jewellery, flowers, mukut, peacock feathers and handcrafted devotional details.
 
 The website is designed as a luxury Indian editorial experience rather than a conventional business website. Its visual language combines Indian craftsmanship, devotional warmth, elegant typography, photography, scroll-driven storytelling, parallax and restrained cinematic motion.
 
