@@ -920,4 +920,3 @@ use the supplied photography
 prioritize graceful degradation
 
 test desktop and mobile after major animation changes
-
